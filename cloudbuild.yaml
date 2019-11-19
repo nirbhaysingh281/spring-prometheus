@@ -4,6 +4,6 @@ steps:
   args: ['install', '-Dmaven.test.skip=true']
   
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'gcr.io/concrete-crow-244606/spring-prometheus', '.']
+  args: ['build', '-t', 'gcr.io/infosys-gcp-demo-project/spring-prometheus', '.']
     
-images: ['gcr.io/concrete-crow-244606/spring-prometheus']
+images: ['gcr.io/infosys-gcp-demo-project/spring-prometheus']
